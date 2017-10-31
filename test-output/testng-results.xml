@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6644" started-at="2017-10-31T16:47:43Z" finished-at="2017-10-31T16:47:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6644" started-at="2017-10-31T16:47:43Z" finished-at="2017-10-31T16:47:49Z">
+      <class name="com.hotelbooking.TestBooking">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hotelbooking.TestBooking@d8355a8]" name="beforeClass" is-config="true" duration-ms="2622" started-at="2017-10-31T16:47:43Z" finished-at="2017-10-31T16:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getHotelReservationPage()[pri:0, instance:com.hotelbooking.TestBooking@d8355a8]" name="getHotelReservationPage" duration-ms="480" started-at="2017-10-31T16:47:45Z" finished-at="2017-10-31T16:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelReservationPage -->
+        <test-method status="PASS" signature="testCreateBooking()[pri:0, instance:com.hotelbooking.TestBooking@d8355a8]" name="testCreateBooking" duration-ms="1220" started-at="2017-10-31T16:47:46Z" depends-on-methods="com.hotelbooking.TestBooking.getHotelReservationPage" finished-at="2017-10-31T16:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method status="PASS" signature="testDeleteAllBooking()[pri:0, instance:com.hotelbooking.TestBooking@d8355a8]" name="testDeleteAllBooking" duration-ms="1346" started-at="2017-10-31T16:47:47Z" depends-on-methods="com.hotelbooking.TestBooking.getHotelReservationPage" finished-at="2017-10-31T16:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAllBooking -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.hotelbooking.TestBooking@d8355a8]" name="afterClass" is-config="true" duration-ms="958" started-at="2017-10-31T16:47:49Z" finished-at="2017-10-31T16:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hotelbooking.TestBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
