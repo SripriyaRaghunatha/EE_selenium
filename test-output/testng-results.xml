@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8305" started-at="2017-11-01T12:16:00Z" finished-at="2017-11-01T12:16:08Z">
+  <suite name="Default suite" duration-ms="6835" started-at="2017-11-01T12:23:38Z" finished-at="2017-11-01T12:23:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8305" started-at="2017-11-01T12:16:00Z" finished-at="2017-11-01T12:16:08Z">
+    <test name="Default test" duration-ms="6835" started-at="2017-11-01T12:23:38Z" finished-at="2017-11-01T12:23:44Z">
       <class name="com.hotelbooking.TestBooking">
-        <test-method status="PASS" signature="testHotelReservationPage()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testHotelReservationPage" duration-ms="3711" started-at="2017-11-01T12:16:00Z" finished-at="2017-11-01T12:16:04Z">
+        <test-method status="PASS" signature="testHotelReservationPage()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testHotelReservationPage" duration-ms="3873" started-at="2017-11-01T12:23:38Z" finished-at="2017-11-01T12:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHotelReservationPage -->
-        <test-method status="PASS" signature="testCreateBooking()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testCreateBooking" duration-ms="1645" started-at="2017-11-01T12:16:04Z" depends-on-methods="com.hotelbooking.TestBooking.testHotelReservationPage" finished-at="2017-11-01T12:16:05Z">
+        <test-method status="PASS" signature="testCreateBooking()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testCreateBooking" duration-ms="1698" started-at="2017-11-01T12:23:42Z" depends-on-methods="com.hotelbooking.TestBooking.testHotelReservationPage" finished-at="2017-11-01T12:23:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBooking -->
-        <test-method status="PASS" signature="testDeleteBooking()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testDeleteBooking" duration-ms="2920" started-at="2017-11-01T12:16:05Z" depends-on-methods="com.hotelbooking.TestBooking.testHotelReservationPage" finished-at="2017-11-01T12:16:08Z">
+        <test-method status="PASS" signature="testDeleteBooking()[pri:0, instance:com.hotelbooking.TestBooking@724af044]" name="testDeleteBooking" duration-ms="1230" started-at="2017-11-01T12:23:43Z" depends-on-methods="com.hotelbooking.TestBooking.testHotelReservationPage" finished-at="2017-11-01T12:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteBooking -->
